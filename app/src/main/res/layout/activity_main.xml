@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our Movies!"
+        android:textColor="@android:color/background_dark"
+        android:autoSizeMaxTextSize="12dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:paddingRight="20dp"
+      android:singleLine="true"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Movies Name !"
+        android:textColor="@android:color/holo_orange_light"
+        android:autoSizeMaxTextSize="12dp"
+        android:textStyle="bold|italic"
+        android:textSize="18dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:layout_marginTop="35dp"
+
+
+
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnername"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Movies Year !"
+        android:textColor="@android:color/holo_orange_light"
+        android:autoSizeMaxTextSize="12dp"
+        android:textStyle="bold|italic"
+        android:textSize="18dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:layout_marginTop="35dp"
+
+
+/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinneryear"
+        android:layout_marginBottom="20dp"
+
+
+
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Movies Category !"
+        android:textColor="@android:color/holo_orange_light"
+        android:autoSizeMaxTextSize="12dp"
+        android:textStyle="bold|italic"
+        android:textSize="18dp"
+        android:paddingRight="20dp"
+        android:singleLine="true"
+        android:layout_marginTop="35dp"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnercategory"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Name"
+        android:id="@+id/movies1"
+        android:onClick="ByName"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold|italic"
+
+
+        />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Year"
+            android:id="@+id/movies2"
+            android:onClick="ByYear"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="35dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold|italic"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Category"
+            android:id="@+id/movies3"
+            android:onClick="ByCategory"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:layout_marginTop="35dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold|italic"/>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"/>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textedit"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textedit1"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textedit3"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
